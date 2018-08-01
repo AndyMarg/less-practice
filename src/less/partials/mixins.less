@@ -1,0 +1,21 @@
+.clean {
+	padding: 0;
+	margin: 0;
+}
+
+.clean-list {
+	.clean;
+	list-style: none;
+}
+
+.flex-center(@dir: column) {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: @dir;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
