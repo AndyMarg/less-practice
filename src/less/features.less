@@ -1,0 +1,38 @@
+@import "partials/params";
+@import "partials/mixins";
+
+#features {
+	padding: 40px 0 60px;
+	text-align: center;
+	
+	& img {
+		margin-bottom: 20px;
+	}
+
+	& .text {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		width: 950px;
+
+		& > div {
+			width: 25%;
+			font-weight: bold;
+			font-size: 20px;
+
+			& > div {
+				position: relative;
+			}
+
+			&.t1 > div {right: 45px;}
+			&.t2 > div {right: 14px;}
+			&.t3 > div {left: 20px;}
+			&.t4 > div {left: 54px;}
+
+		}
+
+
+	}
+
+
+}
